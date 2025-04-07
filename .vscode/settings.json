@@ -1,0 +1,19 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages",
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/pix_nev_driver_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/pixbus/pix/scripts/tools/pixmoving_ota",
+        ""
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/ros2_socketcan_msgs/local/lib/python3.10/dist-packages",
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/pix_nev_driver_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/pixbus/pix/scripts/tools/pixmoving_ota",
+        ""
+    ],
+    "cmake.sourceDirectory": "/home/pixbus/Desktop/nev/NevSmartCockpit/src/nev_server_interface"
+}

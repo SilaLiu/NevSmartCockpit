@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nev_launch</name>
+  <version>0.1.0</version>
+  <description>Launch files for NEV Smart Cockpit system</description>
+  
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>ros2_socketcan</exec_depend>
+  <exec_depend>pix_nev_driver</exec_depend>
+  <exec_depend>nev_server_interface</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/ros2_socketcan/include/**",
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/ros2_socketcan_msgs/include/**",
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/pix_nev_driver/include/**",
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/install/pix_nev_driver_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/src/nev_driver/pix_nev_driver/include/**",
+        "/home/pixbus/Desktop/nev/NevSmartCockpit/src/ros2_socketcan/ros2_socketcan/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

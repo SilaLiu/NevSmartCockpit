@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- 可配置参数 -->
+  <arg name="can_interface" default="can0" description="CAN接口名称"/>
+  <arg name="server_port" default="12345" description="服务器端口号"/>
+  <arg name="use_control_publisher" default="false" description="是否启动控制发布器"/>
+  <arg name="use_feedback_subscriber" default="true" description="是否启动反馈订阅器"/>
+
+  <!-- 1. 启动CAN总线通信 -->
+  <include file="$(find-pkg-share ros2_socketcan)/launch/socket_can_bridge.launch.xml">
+    <arg name="interface" value="$(var can_interface)"/>
+  </include>
+
+  <!-- 2. 启动NEV驱动核心 -->
+  <include file="$(find-pkg-share pix_nev_driver)/launch/pix_nev_driver.launch.xml">
+    <arg name="can_interface" value="$(var can_interface)"/>
+  </include>
+
+  <!-- 3. 启动服务器接口 -->
+  <include file="$(find-pkg-share nev_server_interface)/launch/server.launch.xml">
+    <arg name="port" value="$(var server_port)"/>
+  </include>
+
+
+</launch>
