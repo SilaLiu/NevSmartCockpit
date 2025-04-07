@@ -7,7 +7,7 @@
 ### 准备工作：
 安装EMUC-B202-Driver
 
-    最好使用以下对应的CAN卡,如图3、图4所示：
+    最好使用以下对应的CAN卡,如图4、图5所示：
 
     https://github.com/pixmoving-moveit/EMUC-B202-Driver.git
 
@@ -16,19 +16,26 @@
     https://github.com/autowarefoundation/ros2_socketcan.git
 
 ![alt text](image.png)
-    （图1）
+
+（图1）
 
 ![alt text](image-1.png)
-    （图2）
+
+（图2）
 
 ![alt text](image-2.png)
-    （图3）
+
+（图3）
 
 ![alt text](image-3.png)
-    （图4）
+
+（图4）
 
 ![alt text](image-4.png)
-    （图5）
+
+（图5）
+
+
 
     文件结构：
 
