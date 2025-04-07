@@ -1,5 +1,24 @@
 # NevSmartCockpit
 
+### 这是通过或许宏键盘【中控仪表台按键】值来控制车辆的功能包
+##### 客户端client.py 获取按键值通过网络发送到nev_driver_system.py服务器;服务器并通过ROS节点发送到ROS网络里;通过pix_nev_driver获取到话题后转发到ros2_socketcan,最后ros2_socketcan发送CAN报文到CAN总线进行汽车控制。
+
+
+### 准备工作：
+安装EMUC-B202-Driver
+https://github.com/pixmoving-moveit/EMUC-B202-Driver.git
+
+https://github.com/SilaLiu/nev_server_interface.git
+
+https://github.com/autowarefoundation/ros2_socketcan.git
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+
                 NevSmartCockpit
                 ├── nev_driver
                 │   ├── pix_nev_driver
