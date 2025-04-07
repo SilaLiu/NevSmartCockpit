@@ -9,6 +9,12 @@
 
     https://github.com/pixmoving-moveit/EMUC-B202-Driver.git
 
+    最好使用以下对应的CAN卡
+
+        ![alt text](image-3.png)
+
+        ![alt text](image-4.png)
+
     https://github.com/SilaLiu/nev_server_interface.git
 
     https://github.com/autowarefoundation/ros2_socketcan.git
