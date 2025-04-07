@@ -35,7 +35,9 @@
 
 （图5）
 
-
+#### 拓展：
+    车辆协议工具
+    https://github.com/ApolloAuto/apollo/tree/master/modules/tools/gen_vehicle_protocol
 
     文件结构：
 
